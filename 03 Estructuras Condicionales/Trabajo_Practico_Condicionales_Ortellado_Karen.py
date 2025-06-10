@@ -118,27 +118,70 @@
 #else:
 #    print("Por favor, seleccione una opción válida")
 
-#ejercicio 9
+#ejercicio 96
+
 
 # Pedimos al usuario que ingrese la magnitud del terremoto
-magnitud_terremoto = float(input("Por favor, ingrese la magnitud del terremoto según la escala de Ritcher: "))
+#magnitud_terremoto = float(input("Por favor, ingrese la magnitud del terremoto según la escala de Ritcher: "))
 
-# Si la magnitud del terremoto es menor que 3, imprimimos "Muy leve"
-if magnitud_terremoto < 3:
-  print("Muy leve")
-# Si la magnitud del terremoto es mayor o igual que 3 y menor que 4, imprimimos "Leve"
-elif 3 <= magnitud_terremoto < 4:
-  print("Leve")
-# Si la magnitud del terremoto es mayor o igual que 4 y menor que 5, imprimimos "Moderado"
-elif 4 <= magnitud_terremoto < 5:
-  print("Moderado")
-# Si la magnitud del terremoto es mayor o igual que 5 y menor que 6, imprimimos "Fuerte"
-elif 5 <= magnitud_terremoto < 6:
-  print("Fuerte")
-# Si la magnitud del terremoto es mayor o igual que 6 y menor que 7, imprimimos "Muy fuerte"
-elif 6 <= magnitud_terremoto < 7:
-  print("Muy fuerte")
-# En cualquier otro caso, imprimimos "Extremo". Esto en este caso equivale a decir
-# elif magnitud_terremoto >= 7 porque es el único caso que no está cubierto hasta el momento
-else:
-  print("Extremo")
+# Si la magnitud del terremoto < que 3, imprimimos "Muy leve"
+#if magnitud_terremoto < 3:
+#  print("Muy leve")
+# Si la magnitud del terremoto es >= que 3 y < que 4, imprimimos "Leve"
+#elif 3 <= magnitud_terremoto < 4:
+#  print("Leve")
+# Si la magnitud del terremoto es >= que 4 y < que 5, imprimimos "Moderado"
+#elif 4 <= magnitud_terremoto < 5:
+#  print("Moderado")
+# Si la magnitud del terremoto es >= que 5 y < que 6, imprimimos "Fuerte"
+#elif 5 <= magnitud_terremoto < 6:
+#  print("Fuerte")
+# Si la magnitud del terremoto es >= que 6 y m< que 7, imprimimos "Muy fuerte"
+#elif 6 <= magnitud_terremoto < 7:
+#  print("Muy fuerte")
+#else:
+#  print("Extremo")
+
+#10) Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes del año es y qué día es. 
+#El programa deberá utilizar esa información para imprimir por pantalla si el usuario se encuentra en otoño, invierno, primavera o verano.
+
+# Pedimos al usuario que ingrese el hemisferio
+#hemisferio = input("Por favor, ingrese el hemisferio (N/S): ")
+# Estandarizamos la respuesta del usuario convirtiéndola en minúscula
+#hemisferio = hemisferio.lower()
+
+# Pedimos al usuario que ingrese el mes del año
+#mes = int(input("Por favor, ingrese el mes del año en números: "))
+
+# Pedimos al usuario que ingrese el día del mes
+#dia = int(input("Por favor, ingrese el día del mes en números: "))
+
+
+# Hacemos un condicional anidado, primero colocamos todo lo relativo al hemisferio sur
+#if hemisferio == "s":
+  # Si es después del 21/12, en cualquier momento de enero o febrero, o antes del 20/3 imprimimos "Verano"
+#  if (mes == 12 and dia >= 21) or (mes in (1,2)) or (mes == 3 and dia <= 20):
+#    print("Verano")
+  # Si es después del 21/3, en cualquier momento de abril o mayo, o antes del 20/6 imprimimos "Otoño"
+#  elif (mes == 3 and dia >= 21) or (mes in (4,5)) or (mes == 6 and dia <= 20):
+#    print("Otoño")
+  # Si es después del 21/6, en cualquier momento de julio o agosto, o antes del 20/9 imprimimos "Invierno"
+#  elif (mes == 6 and dia >= 21) or (mes in (7,8)) or (mes == 9 and dia <= 20):
+#    print("Invierno")
+  # Si es después del 21/9, en cualquier momento de octubre o noviembre, o antes del 20/12 imprimimos "Primavera"
+#  elif (mes == 9 and dia >= 21) or (mes in (10,11)) or (mes == 12 and dia <= 20):
+#    print("Primavera")
+# Luego colocamos lo relativo al hemisferio norte
+#elif hemisferio == "n":
+  # Si es después del 21/12, en cualquier momento de enero o febrero, o antes del 20/3 imprimimos "Invierno"
+#  if (mes == 12 and dia >= 21) or (mes in (1,2)) or (mes == 3 and dia <= 20):
+#    print("Invierno")
+  # Si es después del 21/3, en cualquier momento de abril o mayo, o antes del 20/6 imprimimos "Primavera"
+#  elif (mes == 3 and dia >= 21) or (mes in (4,5)) or (mes == 6 and dia <= 20):
+#    print("Primavera")
+  # Si es después del 21/6, en cualquier momento de julio o agosto, o antes del 20/9 imprimimos "Verano"
+#  elif (mes == 6 and dia >= 21) or (mes in (7,8)) or (mes == 9 and dia <= 20):
+#    print("Verano")
+  # Si es después del 21/9, en cualquier momento de octubre o noviembre, o antes del 20/12 imprimimos "Otoño"
+#  elif (mes == 9 and dia >= 21) or (mes in (10,11)) or (mes == 12 and dia <= 20):
+#    print("Otoño")
