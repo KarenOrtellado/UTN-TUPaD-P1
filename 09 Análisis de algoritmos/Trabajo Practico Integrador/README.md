@@ -60,10 +60,10 @@ Elegimos como caso práctico el análisis de un código en **Python** que contie
 Ejemplo de salida:
 ```bash
     Lista original:
-    ['Zoe Martínez', 'Ana Gómez', 'Pedro López', 'Carlos Torres']
+    ['Martínez Zoe', 'Gómez Ana', 'López Pedro', 'Torres Carlos']
 
     Lista ordenada:
-    ['Ana Gómez', 'Carlos Torres', 'Pedro López', 'Zoe Martínez']
+    ['Gómez Ana', 'López Pedro', 'Martínez Zoe', 'Torres Carlos']
 ```
 
 ## ✅ Conclusiones
@@ -78,4 +78,4 @@ El análisis de algoritmos es esencial para desarrollar software eficiente. Este
 ---
 
 ## 🎥 Video Explicativo:
-[Click Aquí](https://www.youtube.com/watch?v=7NVEehWHk64)
+[Click Aquí](https://www.youtube.com/watch?v=N_Rch5CUdFU)
